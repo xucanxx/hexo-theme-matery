@@ -186,7 +186,7 @@ pre[class*=language-].line-numbers {
 }
 
 pre[class*=language-].line-numbers>code {
-    position: relative;
+    position: sticky;
     white-space: inherit
 }
 
@@ -462,11 +462,11 @@ pre>code.diff-highlight .token.inserted:not(.prefix) {
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
 	text-shadow: none;
-	background: #b3d4fc;
+    background: #2b7dd0;
 }
 
 pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
 code[class*="language-"]::selection, code[class*="language-"] ::selection {
 	text-shadow: none;
-	background: #b3d4fc;
+    background: #2b7dd0;
 }
